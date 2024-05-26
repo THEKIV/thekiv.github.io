@@ -1,8 +1,0 @@
-User-agent: *
-Disallow: /google8b4bb682daf05f3e.html
-Disallow: /mintme.html
-Disallow: /README.md
-Disallow: /watchdog/ads_banner.html
-Disallow: /css/
-Disallow: /img/
-Disallow: /scr/
