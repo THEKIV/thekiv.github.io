@@ -153,3 +153,15 @@
 	preloader.style.display = "none";
 	});
 </script>
+
+<script src="https://sad.adsgram.ai/js/sad.min.js"></script>
+<script type="text/javascript">
+const AdController = window.Adsgram.init({ blockId: "168" });
+AdController.show().then((result: ShowPromiseResult) => {
+    // user watch ad till the end
+    // your code to reward user
+}).catch((result: ShowPromiseResult) => {
+    // user skipped video or get error during playing ad
+    // do nothing or whatever you want
+})
+</script>
