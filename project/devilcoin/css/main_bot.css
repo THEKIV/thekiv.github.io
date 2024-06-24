@@ -1,12 +1,12 @@
-*, body, html {
+body, html {
 	background: url(../img/wall_1.png) no-repeat center center fixed;
+	background-size: cover; /* Масштабируем фон */
 	background-color: black;
 	font: italic 700 14px "Droid Serif", serif;
 	text-shadow: 1px 1px 3px rgba(0,0,0,0.2);
 	overflow: hidden;
 	cursor: url("../img/cur.png"), default;
 	margin: 0;
-	background-size: cover; /* Масштабируем фон */
 }
 a {
 	color: #f1f1f1;
