@@ -16,29 +16,29 @@
 		<link rel = "icon" href = "./img/icon_1.png">
 		<script type="text/javascript" src="./scr/no_img.js" async></script>
 		<script type="text/javascript" src="./scr/html5.js" async></script>
-		<script type="text/javascript" src="./scr/html5media.js" async></script>	
-		<style type = "text/css" media = "all">@import url(./css/main.css);</style>
-		<style type = "text/css" media = "all">@import url(./css/media_screen.css);</style>
-		<style type = "text/css" media = "all">@import url(./css/preloader.css);</style>
-		<script type = "text/javascript" src = "./scr/jquery.js" defer = ""></script>
-		<script type = "text/javascript" src = "./scr/jquery.pngFix.pack.js" async></script>
-		<script type = "text/javascript" src = "./scr/jquery.pngFix.js" async></script>
-		<script type = "text/javascript"> 
+		<script type="text/javascript" src="./scr/html5media.js" async></script>
+		<style type="text/css" media="all">@import url(./css/main_bot.css);</style>
+		<style type="text/css" media="all">@import url(./css/media_screen.css);</style>
+		<style type="text/css" media="all">@import url(./css/preloader.css);</style>
+		<script type="text/javascript" src = "./scr/jquery.js" defer= ""></script>
+		<script type="text/javascript" src="./scr/jquery.pngFix.pack.js" async></script>
+		<script type="text/javascript" src="./scr/jquery.pngFix.js" async></script>
+		<script type="text/javascript"> 
 			$(document).ready(function() { 
 				$(document).pngFix();
 			}); 
 		</script>
 		<!-- Telegram -->
-		<script type = "text/javascript" src="https://telegram.org/js/telegram-web-app.js"></script>
-		<script type = "text/javascript">
+		<script type="text/javascript" src="https://telegram.org/js/telegram-web-app.js"></script>
+		<script type="text/javascript">
 			let tg = window.Telegram.WebApp;
 			tg.ready();
 			tg.expand();
 		</script>
 	</head>
 	<!-- Запуск прелоадера -->
-	<div id = "preloader">
-		<div class = "spinner"></div>
+	<div id="preloader">
+		<div class="spinner"></div>
 	</div>
 	<div id = "content">
 		<body>
@@ -149,8 +149,8 @@
 					document.write("’’ " + texts[Math.floor(Math.random() * texts.length)] + " ’’");
 				}
 			</script>
-			<div class = "footer">
-				<div class = "footer_text">
+			<div class="footer">
+				<div class="footer_text">
 					<script>
 						random()
 					</script>
@@ -159,7 +159,7 @@
 		</body>
 	</div>
 	<!-- Запрет на просмотр исходного кода -->
-	<script type = "text/javascript">
+	<script type="text/javascript">
 		document.oncontextmenu = function() {
 			return false;
 		};
@@ -183,7 +183,7 @@
 	</script>
 </html>
 <!-- Остановка прелоадера -->
-<script type = "text/javascript">
+<script type="text/javascript">
 	window.addEventListener("load", function () {
 		var preloader = document.getElementById("preloader");
 		preloader.style.display = "none";
