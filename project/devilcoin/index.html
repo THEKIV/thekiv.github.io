@@ -14,12 +14,12 @@
 		<meta property = "og:url" content = "https://devilcoin.pages.dev">
 		<title>DEVIL (DVL) COIN</title>
 		<link rel = "icon" href = "./img/icon_1.png">
-		<link type="text/css" rel="stylesheet" href = "./css/main.css" media = "screen">
 		<script type="text/javascript" src="./scr/no_img.js" async></script>
 		<script type="text/javascript" src="./scr/html5.js" async></script>
 		<script type="text/javascript" src="./scr/html5media.js" async></script>
 		<style type="text/css" media="all">@import url(./css/main.css);</style>
 		<style type="text/css" media="all">@import url(./css/media_screen.css);</style>
+		<style type="text/css" media="all">@import url(./css/preloader.css);</style>
 		<script type="text/javascript" src = "./scr/jquery.js" defer= ""></script>
 		<script type="text/javascript" src="./scr/jquery.pngFix.pack.js" async></script>
 		<script type="text/javascript" src="./scr/jquery.pngFix.js" async></script>
@@ -35,89 +35,6 @@
 			tg.ready();
 			tg.expand();
 		</script>
-		<!-- Прелоадер -->
-		<style type="text/css">
-			#preloader {
-				position: fixed;
-				top: 0;
-				left: 0;
-				right: 0;
-				bottom: 0;
-				background-color: #333333;
-				display: flex;
-				justify-content: center;
-				align-items: center;
-				z-index: 9999;
-			}
-			.spinner {
-				background-image: url(./img/preloader.svg);
-				background-size: cover;
-				background-repeat: no-repeat;
-				background-position: center center;
-				background-color: transparent;
-				height: 60px;
-				width: 60px;
-				margin-top: -30px;
-				margin-left: -30px;
-				left: 50%;
-				top: 50%;
-				position: absolute;
-			}
-			@keyframes spin {
-				0% {
-					transform: rotate(0deg);
-				}
-				100% {
-					transform: rotate(360deg);
-				}
-			}
-		</style>
-		<style type="text/css">
-			*, body, html {
-				background: url(./img/wall_1.png) no-repeat center center fixed;
-				background-color: black;
-				font: italic 700 14px "Droid Serif", serif;
-				text-shadow: 1px 1px 3px rgba(0,0,0,0.2);
-				overflow: hidden;
-				cursor: url("./img/cur.png"), default;
-			}
-			a {
-				color: #f1f1f1;
-				text-decoration: none
-			}
-			a:active {
-				color: #f1f1f1;
-				text-decoration: none
-			}
-			a:visited {
-				color: #f1f1f1;
-				text-decoration: none
-			}
-			a:hover {
-				color: #f1f1f1;
-				text-decoration: none
-			}
-			.footer {
-				width: 720px;
-				height: auto;
-				text-align: center;
-				position: absolute;
-				left: 0;
-				right: 0;
-				bottom: 0;
-				display: block;
-				margin-left: auto;
-				margin-right: auto;
-			}
-			.footer_text {
-				color: red;
-				border-radius: 10px 10px 10px 10px;
-				margin: 15px;
-				padding: 10px;
-				font: italic 700 18px "Droid Serif", serif;
-				background: white
-			}
-		</style>
 	</head>
 	<!-- Запуск прелоадера -->
 	<div id="preloader">
