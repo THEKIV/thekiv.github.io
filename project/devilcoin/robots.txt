@@ -1,5 +1,0 @@
-User-agent: *
-Disallow: /README.md
-Disallow: /css/
-Disallow: /img/
-Disallow: /scr/
