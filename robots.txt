@@ -1,9 +1,7 @@
 User-agent: *
-Disallow: /README.md
-Disallow: /404.md
-Disallow: /404.html
-Disallow: /watchdog/ads_banner.html
 Disallow: /css/
+Disallow: /fonts/
 Disallow: /img/
 Disallow: /scr/
-Disallow: /project/
+Disallow: /download/
+Disallow: /index.html
