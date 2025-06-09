@@ -1,0 +1,12 @@
+<script type = "text/javascript">
+// Получаем строку запроса из URL
+const queryString = window.location.search;
+
+// Парсим параметры
+const urlParams = new URLSearchParams(queryString);
+
+// Получаем значения
+const age = urlParams.get('age');   // "30"
+
+alert(age);
+</script>
